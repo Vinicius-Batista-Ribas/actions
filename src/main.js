@@ -109,7 +109,7 @@ var op;
 var tarefa
 
 
-while(x){
+/*while(x){
 
     mostraOP();
     op = readline.question("Comando: ")
@@ -144,7 +144,7 @@ while(x){
             console.log("Opção invalida!") ;
             break;      
     }
-}
+}*/
 
 module.exports = {
     addTask,
