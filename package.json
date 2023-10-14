@@ -1,0 +1,21 @@
+{
+  "name": "trabalho-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "mock-stdin": "^1.0.0",
+    "sinon": "^16.0.0"
+  }
+}

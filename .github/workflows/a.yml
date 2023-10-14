@@ -1,0 +1,24 @@
+name: CI class
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+                   
+        steps:
+        - name: checkout do codigo
+          uses: actions/checkout@v2
+
+        - name: configurar Node.js
+          uses: actions/setup-node@v2
+          with:
+            node-version: '14'
+        - name: instalar dependencias
+          run: npm install
+        
+        - name: executar testes
+          run: npm test

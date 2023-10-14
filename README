@@ -1,0 +1,10 @@
+## Projeto 1 de C214 
+
+Projeto feito pelo aluno: Vinícius Batista Ribas.
+
+O projeto foi feito para simular uma lista de tarefas, onde o usuario pode adicionar tarefas com nome, descrição e status da mesma. Podendo listalas, editala os status da terafa, e tambem excluir.
+
+Tendo tambem os testes para o mesmo codigo, para testar criação de tarefa, listagem e exclução.
+
+link do video:
+    https://www.youtube.com/watch?v=ekzUWleeS2E
